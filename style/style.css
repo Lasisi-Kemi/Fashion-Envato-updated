@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.herosection {
+    height: 740px;
+    width: 100%;
+    background-image: url(../assets/james-barr-zy5JTdcC0fE-unsplash\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+
+.max_width {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
+.mobile-nav-icon {
+    display: none;
+}
+
+.navigation-bar-section {
+    padding-top: 33px;
+    margin-bottom: 136px;
+}
+
+.navigation-bar-section ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navigation-bar-section li {
+    margin-left: 30px;
+}
+
+.navigation-bar-section a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: rgba(64, 64, 64, 1);
+}
+
+.paul-amusan-section-fullname {
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: rgba(64, 64, 64, 1);
+}
+
+.paul-amusan-section-text {
+    width: 467px;  
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(64, 64, 64, 1);
+}
+
+.paul-amusan-section button {
+    background-color: transparent;
+    padding: 26px 62px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(64, 64, 64, 1);
+    border: 1px solid #404040;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icon-margin-bottom {
+    margin-bottom: 29.5px;
+}
+
+@media screen and (max-width: 500px) {
+    .herosection {
+        background-image: url(../assets/james-barr-zy5JTdcC0fE-unsplash\ 2.png);
+        height: 896px;
+        width: 100%;
+    }
+
+    .herosection-container {
+        padding-left: 20px;
+    }
+    .navigation-bar-section {
+        display: none
+    }
+
+    .mobile-nav-icon {
+        padding-top: 37px;
+        display: flex;
+    }
+
+    .paul-amusan-section {
+        padding-top: 527px;
+    }
+
+    .paul-amusan-section-fullname {
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 28.8px;
+        letter-spacing: 0em;
+        color: rgba(242, 242, 242, 1);
+    }
+
+    .paul-amusan-section-text {
+        width: 284px;  
+        margin-bottom: 14px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        color: rgba(242, 242, 242, 1);
+    }
+
+    .social-media-icons {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .herosection {
+        background-image: url(../assets/james-barr-zy5JTdcC0fE-unsplash\ 2.png);
+        height: 796px;
+        width: 100%;
+    }
+
+    .herosection-container {
+        padding-left: 30px;
+    }
+    .navigation-bar-section {
+        display: none
+    }
+
+    .mobile-nav-icon {
+        padding-top: 37px;
+        display: flex;
+    }
+
+    .paul-amusan-section {
+        padding-top: 427px;
+    }
+
+    .paul-amusan-section-fullname {
+        margin-bottom: 16px;
+        font-size: 28px;
+        line-height: 28.8px;
+        letter-spacing: 0em;
+        color: rgba(242, 242, 242, 1);
+    }
+
+    .paul-amusan-section-text {
+        width: 384px;  
+        margin-bottom: 14px;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: rgba(242, 242, 242, 1);
+    }
+
+    .social-media-icons {
+        display: none;
+    }
+}
+
+/* Section about me starts here */
+.aboutme {
+    padding: 69px 0px 0px 0px;
+    color: rgba(64, 64, 64, 1);
+
+}
+
+.aboutme-detail-container {
+    display: flex;
+}
+
+.aboutme-detail-container-pic {
+    background-image: url(../assets/about\ me\ pic.png);
+    background-position: center;
+    background-size: cover;
+    height: 636.7791748046875px;
+    width: 505px;
+}
+
+.aboutme-detail-container-text {
+    width: 715px;
+    margin-left: 20px;
+    color: rgba(64, 64, 64, 1);
+}
+
+.aboutme-detail-container-text-one {
+    margin: 17px 0px 38px 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.aboutme-detail-container-text-two {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.about-me-mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .aboutme {
+        padding: 48px 20px 0px 20px;
+    }
+
+    .aboutme-detail-container-pic {
+        height: 203px;
+        width: 111px;
+    }
+
+    .aboutme-detail-container-text {
+        width: 243px;
+        margin-left: 20px;
+    }
+
+    .about-me-mobile-view {
+        display: flex;
+        margin: 0px 0px 38px 0px;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+
+    .aboutme-detail-container-text-one {
+        display: none;
+    } 
+    
+    .aboutme-detail-container-text-two{
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .aboutme {
+        padding: 48px 30px 0px 30px;
+    }
+
+    .aboutme-detail-container-pic {
+        height: 233px;
+        width: 141px;
+    }
+
+    .aboutme-detail-container-text {
+        width: 267px;
+        margin-left: 20px;
+    }
+
+    .about-me-mobile-view {
+        display: flex;
+        margin: 0px 0px 38px 0px;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+
+    .aboutme-detail-container-text-one {
+        display: none;
+    } 
+    
+    .aboutme-detail-container-text-two{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+    }
+}
+/* Gallery */
+
+.gallery-section-text {
+    text-align: center;
+    color: rgba(64, 64, 64, 1);
+}
+
+.gallery-section-text-one {
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.gallery-section-text-two {
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.box {
+    height: 516px;
+    width: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gallery-section-image-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-section-image-flex-one {
+    background-image: url(../assets/pic\ 1.png);
+}
+
+.gallery-section-image-flex-two {
+    background-image: url(../assets/pic\ 3.png);
+}
+
+.gallery-section-image-flex-three {
+    background-image: url(../assets/pic\ 5.png);
+}
+
+.gallery-section-image-flex_a {
+    margin-top: 40px;
+}
+
+.gallery-section-image-flex-four {
+    background-image: url(../assets/pic\ 2.png);
+}
+
+.gallery-section-image-flex-five {
+    background-image: url(../assets/pic\ 6.png);
+}
+
+.gallery-section-image-flex-six {
+    background-image: url(../assets/pic\ 4.png);
+}
+
+.slider-container {
+    display: none;
+}
+
+.gallery-section-button-space {
+    margin-top: 30px;
+    color: rgba(64, 64, 64, 1);
+    text-align: center;
+}
+
+.gallery-section-button-space button {
+    padding: 27px 26px 26px 42px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    border: 1px solid #404040;
+}
+
+.gallery-section-button-space img {
+    padding-left: 18px;
+}
+
+@media screen and (max-width: 500px) {
+    .gallery-section-text {
+        text-align: center;
+        color: rgba(64, 64, 64, 1);
+    }
+    
+    .gallery-section-text-one {
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    
+    .gallery-section-text-two {
+        margin-bottom: 24px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    
+    .box {
+        height: 257px;
+        width: 242px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .gallery-section-image-flex {
+        display: none;
+    }
+
+    .slider-container {
+        padding: 0px 20px;
+        display: flex;
+        /*position: relative;
+        overflow: hidden;
+        width: 100%;*/
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .slide {
+        margin: 0px 56px;
+        height: 257px;
+        width: 242px;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+      
+    .slide1 {
+    	background-image: url(../assets/pic\ 1.png);
+    }
+
+    .slide2 {
+      background-image: url(../assets/pic\ 3.png);
+    }
+
+    .slide3 {
+      background-image: url(../assets/pic\ 5.png);
+    }
+
+    .arrow {
+      cursor: pointer;
+    }
+
+    #arrow-left {
+      align-self: center;
+    }
+    
+    #arrow-right {
+      align-self: center;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .gallery-section-button-space {
+        margin-top: 24px;
+    }
+    
+    .gallery-section-button-space button {
+        padding: 9px 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        border: 1px solid #404040;
+    }
+    
+    .gallery-section-button-space img {
+        padding-left: 8px;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .gallery-section-text {
+        text-align: center;
+        color: rgba(64, 64, 64, 1);
+    }
+    
+    .gallery-section-text-one {
+        margin-bottom: 8px;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    
+    .gallery-section-text-two {
+        margin-bottom: 24px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    
+    .box {
+        height: 257px;
+        width: 242px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .gallery-section-image-flex {
+        display: none;
+    }
+
+    .slider-container {
+        padding: 0px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*position: relative;
+        overflow: hidden;
+        width: 100%;*/
+    }
+
+    .slider {
+        
+        /*width: 100%;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .slide {
+        margin: 0px 56px;
+        height: 257px;
+        width: 242px;
+        overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+      
+    .slide1 {
+    	background-image: url(../assets/pic\ 1.png);
+    }
+
+    .slide2 {
+      background-image: url(../assets/pic\ 3.png);
+    }
+
+    .slide3 {
+      background-image: url(../assets/pic\ 5.png);
+    }
+
+    .arrow {
+      cursor: pointer;
+    }
+
+    #arrow-left {
+      align-self: center;
+    }
+    
+    #arrow-right {
+      align-self: center;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-section-button-space {
+        margin-top: 24px;
+    }
+    
+    .gallery-section-button-space button {
+        padding: 9px 12px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        border: 1px solid #404040;
+    }
+    
+    .gallery-section-button-space img {
+        padding-left: 8px;
+    }
+}
